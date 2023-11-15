@@ -1,6 +1,7 @@
 {
-  "name": "next",
+  "name": "dshow-board",
   "version": "0.1.0",
+  "author": "LUIS FELIPE SANTANA DE ALMEIDA E SILVA LTDA.",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,19 +10,36 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.0.1"
-  },
-  "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "autoprefixer": "^10.0.1",
-    "postcss": "^8",
-    "tailwindcss": "^3.3.0",
-    "eslint": "^8",
-    "eslint-config-next": "14.0.1"
+    "@emotion/cache": "11.10.5",
+    "@emotion/react": "^11.11.1",
+    "@emotion/server": "11.10.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.9",
+    "@heroicons/react": "2.0.16",
+    "@mui/lab": "5.0.0-alpha.120",
+    "@mui/material": "^5.14.9",
+    "@mui/system": "5.11.9",
+    "@mui/x-date-pickers": "5.0.19",
+    "apexcharts": "3.37.0",
+    "date-fns": "2.29.3",
+    "formik": "2.2.9",
+    "@types/node": "20.6.0",
+    "@types/react": "18.2.21",
+    "@types/react-dom": "18.2.7",
+    "autoprefixer": "10.4.15",
+    "eslint": "8.49.0",
+    "eslint-config-next": "13.4.19",
+    "next": "13.4.19",
+    "nprogress": "0.2.0",
+    "prop-types": "15.8.1",
+    "postcss": "8.4.29",
+    "react": "18.2.0",
+    "react-apexcharts": "1.4.0",
+    "react-dom": "18.2.0",
+    "simplebar-react": "^3.2.1",
+    "yup": "1.0.0",
+    "recharts": "^2.8.0",
+    "tailwindcss": "3.3.3",
+    "typescript": "5.2.2"
   }
 }

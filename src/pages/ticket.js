@@ -7,7 +7,7 @@ const Page = () => (
   <>
     <Head>
       <title>
-        Painel Locação | DShow
+        Abrir OS | Porto Fácil
       </title>
     </Head>
     <Box

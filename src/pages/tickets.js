@@ -71,7 +71,7 @@ const Page = () => (
   <>
     <Head>
       <title>
-        Companies | Devias Kit
+        Ordens de Serviço | Porto Fácil
       </title>
     </Head>
     <Box

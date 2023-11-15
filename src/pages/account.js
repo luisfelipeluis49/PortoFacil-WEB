@@ -8,7 +8,7 @@ const Page = () => (
   <>
     <Head>
       <title>
-        Conta | DShow
+        Conta | Porto Fácil
       </title>
     </Head>
     <Box

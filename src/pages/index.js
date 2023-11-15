@@ -17,7 +17,7 @@ const Page = () => (
   <>
     <Head>
       <title>
-        DShow | Board
+        Porto Fácil | Board
       </title>
     </Head>
     <Box

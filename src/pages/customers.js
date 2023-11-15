@@ -19,7 +19,7 @@ const data = [
     avatar: '/assets/avatars/avatar-carson-darrin.png',
     createdAt: subDays(subHours(now, 7), 1).getTime(),
     gender: 'M',
-    name: 'Carson Darrin',
+    name: 'Luís Felipe Santana Silva',
     license: 'xxxxx-xxxx',
     licenseType: 'D'
   },
@@ -28,7 +28,7 @@ const data = [
     avatar: '/assets/avatars/avatar-fran-perez.png',
     createdAt: subDays(subHours(now, 1), 2).getTime(),
     gender: 'F',
-    name: 'Fran Perez',
+    name: 'Loren Letícia Flores Silva',
     license: 'xxxxx-xxxx',
     licenseType: 'D'
   },
@@ -37,7 +37,7 @@ const data = [
     avatar: '/assets/avatars/avatar-jie-yan-song.png',
     createdAt: subDays(subHours(now, 4), 2).getTime(),
     gender: 'M',
-    name: 'Jie Yan Song',
+    name: 'Yohan Flores Silva',
     license: 'xxxxx-xxxx',
     licenseType: 'C'
   },
@@ -46,7 +46,7 @@ const data = [
     avatar: '/assets/avatars/avatar-anika-visser.png',
     createdAt: subDays(subHours(now, 11), 2).getTime(),
     gender: 'F',
-    name: 'Anika Visser',
+    name: 'Lorraine Flores Silva',
     license: 'xxxxx-xxxx',
     licenseType: 'D'
   },
@@ -55,7 +55,7 @@ const data = [
     avatar: '/assets/avatars/avatar-miron-vitold.png',
     createdAt: subDays(subHours(now, 7), 3).getTime(),
     gender: 'M',
-    name: 'Miron Vitold',
+    name: 'Roronoa Zoro',
     license: 'xxxxx-xxxx',
     licenseType: 'C'
   },
@@ -64,7 +64,7 @@ const data = [
     avatar: '/assets/avatars/avatar-penjani-inyene.png',
     createdAt: subDays(subHours(now, 5), 4).getTime(),
     gender: 'M',
-    name: 'Penjani Inyene',
+    name: 'Cat D. Luffy',
     license: 'xxxxx-xxxx',
     licenseType: 'D'
   }

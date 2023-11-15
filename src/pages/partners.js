@@ -7,8 +7,8 @@ import PlusIcon from '@heroicons/react/24/solid/PlusIcon';
 import { Box, Button, Container, Stack, SvgIcon, Typography } from '@mui/material';
 import { useSelection } from 'src/hooks/use-selection';
 import { Layout as DashboardLayout } from 'src/layouts/dashboard/layout';
-import { CustomersTable } from 'src/sections/customers/customers-table';
-import { CustomersSearch } from 'src/sections/customers/customers-search';
+import { PartnersTable } from '../sections/partners/partners-table';
+import { PartnersSearch } from '../sections/partners/partners-search';
 import { applyPagination } from 'src/utils/apply-pagination';
 
 const now = new Date();
@@ -204,7 +204,7 @@ const Page = () => {
     <>
       <Head>
         <title>
-          Clientes |  Porto Fácil
+          Parceiros |  Porto Fácil
         </title>
       </Head>
       <Box
@@ -255,10 +255,10 @@ const Page = () => {
                 </Button>
               </div>
             </Stack>
-            <CustomersSearch />
-            <CustomersTable
+            <PartnersSearch />
+            <PartnersTable
               count={data.length}
-              items={customers}
+              items={partners}
               onDeselectAll={customersSelection.handleDeselectAll}
               onDeselectOne={customersSelection.handleDeselectOne}
               onPageChange={handlePageChange}

@@ -6,7 +6,8 @@ import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
 import { InputLabel, Select } from '@mui/material';
 
-export default function PaymentForm() {
+//Truck Location
+export default function TruckLocationForm() {
   return (
     <React.Fragment>
       <Typography variant="h6" gutterBottom>

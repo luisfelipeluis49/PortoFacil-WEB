@@ -11,8 +11,8 @@ import StepLabel from '@mui/material/StepLabel';
 import Button from '@mui/material/Button';
 import Link from '@mui/material/Link';
 import Typography from '@mui/material/Typography';
-import LedPanelDetails from './LedPanelDetails';
-import PaymentForm from './PaymentForm';
+import ConditionsForm from './ConditionsForm';
+import TruckLocationForm from './TruckLocationForm';
 import Review from './Review';
 import ClientForm from './ClientForm';
 
@@ -22,13 +22,13 @@ const steps = ['Painel', 'Pagamento', 'Cliente', 'Revisão'];
 function getStepContent(step) {
   switch (step) {
     case 0:
-      return <LedPanelDetails />;
+      return <TruckLocationForm />;
     case 1:
-      return <PaymentForm />;
+      return <ConditionsForm />;
     case 2:
-      return <ClientForm />;
-    case 3:
       return <Review />;
+    //case 3:
+    //  return <ClientForm />;
     default:
       throw new Error('Unknown step');
   }
@@ -49,7 +49,7 @@ export const StepsLocacao = () => {
       <Container component="main" maxWidth="sm" sx={{ mb: 4 }}>
         <Paper variant="outlined" sx={{ my: { xs: 3, md: 6 }, p: { xs: 2, md: 3 } }}>
           <Typography component="h1" variant="h4" align="center">
-            Locação de Painel
+            Ordem de Serviço
           </Typography>
           <Stepper activeStep={activeStep} sx={{ pt: 3, pb: 5 }}>
             {steps.map((label) => (
@@ -81,7 +81,7 @@ export const StepsLocacao = () => {
                   onClick={handleNext}
                   sx={{ mt: 3, ml: 1 }}
                 >
-                  {activeStep === steps.length - 1 ? 'Gerar DocSign' : 'Próximo'}
+                  {activeStep === steps.length - 1 ? 'Salvar' : 'Próximo'}
                 </Button>
               </Box>
             </React.Fragment>

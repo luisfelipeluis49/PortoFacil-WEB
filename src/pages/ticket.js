@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import { Box, Container, Stack, Typography } from '@mui/material';
-import { StepsLocacao } from 'src/sections/painel-locacao/Steps.js';
+import { StepsLocacao } from 'src/sections/ticket/Steps.js';
 import { Layout as DashboardLayout } from 'src/layouts/dashboard/layout';
 
 const Page = () => (

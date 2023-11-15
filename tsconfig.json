@@ -22,6 +22,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/pages/dashboard-2.jsx", "src/sections/dashboard/overview-latest-orders.jss", "src/components/severity-pill.js", "src/sections/painel-locacao/Steps.js", "src/sections/painel-locacao/Review.js", "src/sections/painel-locacao/PaymentForm.js", "src/sections/painel-locacao/LedPanelDetails.js", "src/sections/painel-locacao/ClientForm.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/pages/dashboard-2.jsx", "src/sections/dashboard/overview-latest-orders.jss", "src/components/severity-pill.js", "src/sections/ticket/Steps.js", "src/sections/ticket/Review.js", "src/sections/ticket/TruckLocationForm.js", "src/sections/ticket/ConditionsForm.js", "src/sections/ticket/ClientForm.js"],
   "exclude": ["node_modules"]
 }

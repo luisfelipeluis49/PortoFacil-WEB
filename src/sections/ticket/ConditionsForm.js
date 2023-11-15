@@ -7,7 +7,8 @@ import Checkbox from '@mui/material/Checkbox';
 import { InputLabel, Select } from '@mui/material';
 import { Label } from '@mui/icons-material';
 
-export default function LedPanelDetails() {
+//TruckConditions RoadConditions
+export default function ConditionsForm() {
   return (
     <React.Fragment>
       <Typography variant="h6" gutterBottom>

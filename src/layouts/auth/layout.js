@@ -98,7 +98,8 @@ export const Layout = (props) => {
             </Typography>
             <Image
               alt=""
-              src="/assets/dshow-experiencias.svg"
+              src="/assets/porto-square.svg"
+              width="1200"
             />
           </Box>
         </Grid>

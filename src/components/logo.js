@@ -6,6 +6,6 @@ export const Logo = () => {
   const fillColor = theme.palette.primary.main;
 
   return (
-    <Image src="https://logodownload.org/wp-content/uploads/2022/08/porto-logo.png" alt="Logo" />
+    <Image src="/assets/porto-logo.png" alt="Logo" />
   );
 };

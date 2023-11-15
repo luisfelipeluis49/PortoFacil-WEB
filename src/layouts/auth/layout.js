@@ -2,6 +2,7 @@ import PropTypes from 'prop-types';
 import NextLink from 'next/link';
 import { Box, Typography, Unstable_Grid2 as Grid } from '@mui/material';
 import { Logo } from 'src/components/logo';
+import Image from 'next/image';
 
 // TODO: Change subtitle text
 
@@ -95,7 +96,7 @@ export const Layout = (props) => {
             >
               Entre com seu cadastro e acesse o sistema interno da DShow.
             </Typography>
-            <img
+            <Image
               alt=""
               src="/assets/dshow-experiencias.svg"
             />

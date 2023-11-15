@@ -2,13 +2,8 @@ import Head from 'next/head';
 import { subDays, subHours } from 'date-fns';
 import { Box, Container, Unstable_Grid2 as Grid } from '@mui/material';
 import { Layout as DashboardLayout } from 'src/layouts/dashboard/layout';
-import { OverviewBudget } from 'src/sections/dashboard/overview-budget';
 import { OverviewLatestOrders } from 'src/sections/dashboard/overview-latest-orders';
-import { OverviewLatestProducts } from 'src/sections/dashboard/overview-latest-products';
 import { OverviewSales } from 'src/sections/dashboard/overview-sales';
-import { OverviewTasksProgress } from 'src/sections/dashboard/overview-tasks-progress';
-import { OverviewTotalCustomers } from 'src/sections/dashboard/overview-total-customers';
-import { OverviewTotalProfit } from 'src/sections/dashboard/overview-total-profit';
 import { OverviewTraffic } from 'src/sections/dashboard/overview-traffic';
 
 const now = new Date();
@@ -40,12 +35,12 @@ const Page = () => (
             <OverviewSales
               chartSeries={[
                 {
-                  name: 'This year',
-                  data: [18, 16, 5, 8, 3, 14, 14, 16, 17, 19, 18, 20]
+                  name: 'Este Ano',
+                  data: [90, 80, 25, 40, 15, 70, 70, 80, 85, 95, 90, 100]
                 },
                 {
-                  name: 'Last year',
-                  data: [12, 11, 4, 6, 2, 9, 9, 10, 11, 12, 13, 13]
+                  name: 'Ano passado',
+                  data: [60, 55, 20, 30, 10, 45, 45, 50, 55, 60, 65, 65]
                 }
               ]}
               sx={{ height: '100%' }}

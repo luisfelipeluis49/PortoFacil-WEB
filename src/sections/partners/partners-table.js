@@ -141,7 +141,7 @@ export const PartnersTable = (props) => {
   );
 };
 
-CustomersTable.propTypes = {
+PartnersTable.propTypes = {
   count: PropTypes.number,
   items: PropTypes.array,
   onDeselectAll: PropTypes.func,

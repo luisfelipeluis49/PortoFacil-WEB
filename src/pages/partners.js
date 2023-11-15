@@ -258,7 +258,7 @@ const Page = () => {
             <PartnersSearch />
             <PartnersTable
               count={data.length}
-              items={partners}
+              items={customers}
               onDeselectAll={customersSelection.handleDeselectAll}
               onDeselectOne={customersSelection.handleDeselectOne}
               onPageChange={handlePageChange}

@@ -34,15 +34,6 @@ export const items = [
     )
   },
   {
-    title: 'Ordens de Serviço',
-    path: '/tickets',
-    icon: (
-      <SvgIcon fontSize="small">
-        <ShoppingBagIcon />
-      </SvgIcon>
-    )
-  },
-  {
     title: 'Abrir O.S.',
     path: '/ticket',
     icon: (

@@ -86,7 +86,7 @@ const useChartOptions = () => {
         'Dez'
       ],
       labels: {
-        offsetY: 20,
+        offsetY: 5,
         style: {
           colors: theme.palette.text.secondary
         }

@@ -86,7 +86,7 @@ const useChartOptions = () => {
         'Dez'
       ],
       labels: {
-        offsetY: 5,
+        offsetY: 20,
         style: {
           colors: theme.palette.text.secondary
         }
@@ -94,7 +94,7 @@ const useChartOptions = () => {
     },
     yaxis: {
       labels: {
-        formatter: (value) => (value > 0 ? `${value}K` : `${value}`),
+        formatter: (value) => (value > 0 ? `${value}%` : `${value}`),
         offsetX: -10,
         style: {
           colors: theme.palette.text.secondary
@@ -124,7 +124,7 @@ export const OverviewSales = (props) => {
             Atualizar
           </Button>
         )}
-        title="Vendas"
+        title="Acertos de Modal"
       />
       <CardContent>
         <Chart

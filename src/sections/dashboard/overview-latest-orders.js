@@ -20,7 +20,7 @@ import { SeverityPill } from '../../components/severity-pill';
 
 const statusMap = {
   Pendente: 'warning',
-  Entregue: 'success',
+  Resolvido: 'success',
   Cancelado: 'error'
 };
 
@@ -29,20 +29,20 @@ export const OverviewLatestOrders = (props) => {
 
   return (
     <Card sx={sx}>
-      <CardHeader title="Últimos pedidos" />
+      <CardHeader title="Últimas OS" />
       <Scrollbar sx={{ flexGrow: 1 }}>
         <Box sx={{ minWidth: 800 }}>
           <Table>
             <TableHead>
               <TableRow>
                 <TableCell>
-                  Pedido
+                  Ordem de Serviço
                 </TableCell>
                 <TableCell>
                   Cliente
                 </TableCell>
                 <TableCell sortDirection="desc">
-                  Data Venda
+                  Data Abertura
                 </TableCell>
                 <TableCell>
                   Status

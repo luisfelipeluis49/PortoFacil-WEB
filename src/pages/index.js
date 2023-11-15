@@ -58,7 +58,7 @@ const Page = () => (
           >
             <OverviewTraffic
               chartSeries={[48, 33, 19]}
-              labels={['Compra', 'Locação', 'LC']}
+              labels={['VUC', 'HIC', 'HEC']}
               sx={{ height: '100%' }}
             />
           </Grid>

@@ -13,31 +13,31 @@ import {
 
 const states = [
   {
-    value: 'alabama',
-    label: 'Alabama'
+    value: 'SP',
+    label: 'SP'
   },
   {
-    value: 'new-york',
-    label: 'New York'
+    value: 'RS',
+    label: 'RS'
   },
   {
-    value: 'san-francisco',
-    label: 'San Francisco'
+    value: 'DF',
+    label: 'DF'
   },
   {
-    value: 'los-angeles',
-    label: 'Los Angeles'
+    value: 'BA',
+    label: 'BA'
   }
 ];
 
 export const AccountProfileDetails = () => {
   const [values, setValues] = useState({
-    firstName: 'Anika',
-    lastName: 'Visser',
-    email: 'demo@devias.io',
+    firstName: 'Maria',
+    lastName: 'Silva',
+    email: 'maria@porto.com.br',
     phone: '',
-    state: 'los-angeles',
-    country: 'USA'
+    state: 'SP',
+    country: 'Brasil'
   });
 
   const handleChange = useCallback(
@@ -65,8 +65,8 @@ export const AccountProfileDetails = () => {
     >
       <Card>
         <CardHeader
-          subheader="The information can be edited"
-          title="Profile"
+          subheader="Essas informações podem ser editadas"
+          title="Perfil"
         />
         <CardContent sx={{ pt: 0 }}>
           <Box sx={{ m: -1.5 }}>
@@ -80,8 +80,8 @@ export const AccountProfileDetails = () => {
               >
                 <TextField
                   fullWidth
-                  helperText="Please specify the first name"
-                  label="First name"
+                  helperText="Escreva seu nome de batismo"
+                  label="Nome"
                   name="firstName"
                   onChange={handleChange}
                   required
@@ -94,7 +94,7 @@ export const AccountProfileDetails = () => {
               >
                 <TextField
                   fullWidth
-                  label="Last name"
+                  label="Sobrenome"
                   name="lastName"
                   onChange={handleChange}
                   required
@@ -107,7 +107,7 @@ export const AccountProfileDetails = () => {
               >
                 <TextField
                   fullWidth
-                  label="Email Address"
+                  label="E-mail"
                   name="email"
                   onChange={handleChange}
                   required
@@ -120,7 +120,7 @@ export const AccountProfileDetails = () => {
               >
                 <TextField
                   fullWidth
-                  label="Phone Number"
+                  label="Número de Telefone"
                   name="phone"
                   onChange={handleChange}
                   type="number"
@@ -133,7 +133,7 @@ export const AccountProfileDetails = () => {
               >
                 <TextField
                   fullWidth
-                  label="Country"
+                  label="Páis"
                   name="country"
                   onChange={handleChange}
                   required
@@ -146,7 +146,7 @@ export const AccountProfileDetails = () => {
               >
                 <TextField
                   fullWidth
-                  label="Select State"
+                  label="UF"
                   name="state"
                   onChange={handleChange}
                   required
@@ -170,7 +170,7 @@ export const AccountProfileDetails = () => {
         <Divider />
         <CardActions sx={{ justifyContent: 'flex-end' }}>
           <Button variant="contained">
-            Save details
+            Salvar Alterações
           </Button>
         </CardActions>
       </Card>

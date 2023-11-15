@@ -10,12 +10,12 @@ import {
 } from '@mui/material';
 
 const user = {
-  avatar: '/assets/avatars/avatar-anika-visser.png',
-  city: 'Los Angeles',
-  country: 'USA',
-  jobTitle: 'Senior Developer',
-  name: 'Anika Visser',
-  timezone: 'GTM-7'
+  avatar: '/assets/avatars/maria-icon.png',
+  city: 'Nazaré',
+  country: 'Israel',
+  jobTitle: 'Padroeira do Brasil',
+  name: 'Nossa Senhora da Conceição Aparecida',
+  timezone: 'UTC+2'
 };
 
 export const AccountProfile = () => (
@@ -62,7 +62,7 @@ export const AccountProfile = () => (
         fullWidth
         variant="text"
       >
-        Upload picture
+        Mudar foto
       </Button>
     </CardActions>
   </Card>

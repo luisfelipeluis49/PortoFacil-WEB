@@ -86,7 +86,7 @@ export const Layout = (props) => {
                 sx={{ color: '#15B79E' }}
                 target="_blank"
               >
-                DShow LED
+                Porto Fácil
               </Box>
             </Typography>
             <Typography
@@ -94,7 +94,7 @@ export const Layout = (props) => {
               sx={{ mb: 3 }}
               variant="subtitle1"
             >
-              Entre com seu cadastro e acesse o sistema interno da DShow.
+              Entre com seu cadastro e acesse o sistema interno da Porto Fácil.
             </Typography>
             <Image
               alt=""

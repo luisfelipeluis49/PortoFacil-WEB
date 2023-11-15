@@ -250,7 +250,6 @@ const Page = () => {
                     </SvgIcon>
                   )}
                   variant="contained"
-                  onClick={alert('Add')}
                 >
                   Adicionar
                 </Button>

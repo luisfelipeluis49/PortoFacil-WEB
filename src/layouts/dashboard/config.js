@@ -16,8 +16,8 @@ export const items = [
     )
   },
   {
-    title: 'Clientes',
-    path: '/customers',
+    title: 'Parceiros',
+    path: '/partners',
     icon: (
       <SvgIcon fontSize="small">
         <UsersIcon />
@@ -25,8 +25,8 @@ export const items = [
     )
   },
   {
-    title: 'Paineis Solicitados',
-    path: '/companies',
+    title: 'Ordens de Serviço',
+    path: '/tickets',
     icon: (
       <SvgIcon fontSize="small">
         <ShoppingBagIcon />
@@ -34,8 +34,8 @@ export const items = [
     )
   },
   {
-    title: 'Painel Locação',
-    path: '/rental',
+    title: 'Abrir O.S.',
+    path: '/ticket',
     icon: (
       <SvgIcon fontSize="small">
         <CogIcon />

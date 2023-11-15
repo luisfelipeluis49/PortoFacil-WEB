@@ -85,7 +85,7 @@ export const AuthProvider = (props) => {
         id: '5e86809283e28b96d2d38537',
         avatar: '/assets/avatars/avatar-anika-visser.png',
         name: 'Maria Silva',
-        email: 'maria@dshow.com.br'
+        email: 'maria@porto.com.br'
       };
 
       dispatch({
@@ -118,7 +118,7 @@ export const AuthProvider = (props) => {
       id: '5e86809283e28b96d2d38537',
       avatar: '/assets/avatars/avatar-anika-visser.png',
       name: 'Maria Silva',
-      email: 'maria@dshow.com.br'
+      email: 'maria@porto.com.br'
     };
 
     dispatch({
@@ -128,7 +128,7 @@ export const AuthProvider = (props) => {
   };
 
   const signIn = async (email, password) => {
-    if (email !== 'maria@dshow.com.br' || password !== 'Password123!') {
+    if (email !== 'maria@porto.com.br' || password !== 'Password123!') {
       throw new Error('Verifique se os campos de e-mail e senhas estão preenchidos corretamente.');
     }
 
@@ -142,7 +142,7 @@ export const AuthProvider = (props) => {
       id: '5e86809283e28b96d2d38537',
       avatar: '/assets/avatars/avatar-anika-visser.png',
       name: 'Maria Silva',
-      email: 'maria@dshow.com.br'
+      email: 'maria@porto.com.br'
     };
 
     dispatch({
